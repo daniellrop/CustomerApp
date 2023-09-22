@@ -1,0 +1,81 @@
+/* CustomerDetail.css */
+@import "colors";
+
+.customer-detail {
+  background-color: #fff;
+  padding: 24px;
+  border: 1px solid $v1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 24px auto; /* Center horizontally */
+  max-width: 600px;
+  text-align: left; /* Align text to the left */
+}
+
+.customer-detail h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #333;
+  text-align: center; /* Center the heading */
+}
+
+.customer-detail div {
+  margin-bottom: 16px; /* More spacing between fields */
+}
+
+.customer-detail label {
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  color: #555;
+}
+
+.customer-detail span {
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.customer-detail button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  display: block;
+  margin: 24px auto; /* Center the button */
+  transition: background-color 0.2s;
+}
+
+.customer-detail button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the card vertically and horizontally */
+.customer-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Make sure the card takes full width on smaller screens */
+@media (max-width: 768px) {
+  .customer-detail {
+    margin: 0;
+    border-radius: 0;
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .customer-detail h2 {
+    font-size: 24px;
+  }
+
+  .customer-detail label {
+    width: 120px;
+  }
+}

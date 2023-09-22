@@ -1,0 +1,54 @@
+/* AddUserForm.css */
+.add-user-form {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-user-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .add-user-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-user-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-user-form label {
+    font-weight: bold;
+  }
+  
+  .add-user-form input[type="text"],
+  .add-user-form input[type="email"],
+  .add-user-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .add-user-form button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .add-user-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
